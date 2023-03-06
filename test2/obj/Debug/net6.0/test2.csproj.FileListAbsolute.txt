@@ -1,0 +1,15 @@
+C:\Users\WW\Desktop\Градуировочная таблица\test2\obj\Debug\net6.0\test2.csproj.AssemblyReference.cache
+C:\Users\WW\Desktop\Градуировочная таблица\test2\obj\Debug\net6.0\test2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WW\Desktop\Градуировочная таблица\test2\obj\Debug\net6.0\test2.AssemblyInfoInputs.cache
+C:\Users\WW\Desktop\Градуировочная таблица\test2\obj\Debug\net6.0\test2.AssemblyInfo.cs
+C:\Users\WW\Desktop\Градуировочная таблица\test2\obj\Debug\net6.0\test2.csproj.CoreCompileInputs.cache
+C:\Users\WW\Desktop\Градуировочная таблица\test2\bin\Debug\net6.0\test2.exe
+C:\Users\WW\Desktop\Градуировочная таблица\test2\bin\Debug\net6.0\test2.deps.json
+C:\Users\WW\Desktop\Градуировочная таблица\test2\bin\Debug\net6.0\test2.runtimeconfig.json
+C:\Users\WW\Desktop\Градуировочная таблица\test2\bin\Debug\net6.0\test2.dll
+C:\Users\WW\Desktop\Градуировочная таблица\test2\bin\Debug\net6.0\test2.pdb
+C:\Users\WW\Desktop\Градуировочная таблица\test2\obj\Debug\net6.0\test2.dll
+C:\Users\WW\Desktop\Градуировочная таблица\test2\obj\Debug\net6.0\refint\test2.dll
+C:\Users\WW\Desktop\Градуировочная таблица\test2\obj\Debug\net6.0\test2.pdb
+C:\Users\WW\Desktop\Градуировочная таблица\test2\obj\Debug\net6.0\test2.genruntimeconfig.cache
+C:\Users\WW\Desktop\Градуировочная таблица\test2\obj\Debug\net6.0\ref\test2.dll

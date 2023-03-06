@@ -1,0 +1,15 @@
+C:\Users\WW\Desktop\Градуировочная таблица\GrTable\bin\Debug\net6.0\GrTable.exe
+C:\Users\WW\Desktop\Градуировочная таблица\GrTable\bin\Debug\net6.0\GrTable.deps.json
+C:\Users\WW\Desktop\Градуировочная таблица\GrTable\bin\Debug\net6.0\GrTable.runtimeconfig.json
+C:\Users\WW\Desktop\Градуировочная таблица\GrTable\bin\Debug\net6.0\GrTable.dll
+C:\Users\WW\Desktop\Градуировочная таблица\GrTable\bin\Debug\net6.0\GrTable.pdb
+C:\Users\WW\Desktop\Градуировочная таблица\GrTable\obj\Debug\net6.0\GrTable.csproj.AssemblyReference.cache
+C:\Users\WW\Desktop\Градуировочная таблица\GrTable\obj\Debug\net6.0\GrTable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WW\Desktop\Градуировочная таблица\GrTable\obj\Debug\net6.0\GrTable.AssemblyInfoInputs.cache
+C:\Users\WW\Desktop\Градуировочная таблица\GrTable\obj\Debug\net6.0\GrTable.AssemblyInfo.cs
+C:\Users\WW\Desktop\Градуировочная таблица\GrTable\obj\Debug\net6.0\GrTable.csproj.CoreCompileInputs.cache
+C:\Users\WW\Desktop\Градуировочная таблица\GrTable\obj\Debug\net6.0\GrTable.dll
+C:\Users\WW\Desktop\Градуировочная таблица\GrTable\obj\Debug\net6.0\refint\GrTable.dll
+C:\Users\WW\Desktop\Градуировочная таблица\GrTable\obj\Debug\net6.0\GrTable.pdb
+C:\Users\WW\Desktop\Градуировочная таблица\GrTable\obj\Debug\net6.0\GrTable.genruntimeconfig.cache
+C:\Users\WW\Desktop\Градуировочная таблица\GrTable\obj\Debug\net6.0\ref\GrTable.dll
