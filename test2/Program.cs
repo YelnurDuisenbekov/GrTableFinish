@@ -7,15 +7,14 @@ double[] height1071 = new double[] { 1.2, 0.8 };                    // 107 -  1,
 double[] diametr10713 = new double[] { 0.315, 3, 3 };               // 107 -  13
 double[] height10713 = new double[] { 1.77, 1 };                    // 107 -  13
 
-
-double[] diametr1063 = new double[] { 0.164, 3, 3 };  // 106 -  3,8,16,17,19,20,21
-double[] height1063 = new double[] { 1.335, 7.31 };       // 106 -  3,8,16,17,19,20,21
-double[] diametr1064 = new double[] { 0.13, 3, 3 };     // 106 -  4,5,6,7,9,10,11,12,14,15
-double[] height1064 = new double[] { 1.2, 7.3 };         // 106 -  4,5,6,7,9,10,11,12,14,15
-double[] diametr1061 = new double[] { 0.164, 3, 3 };    // 106 -  1,2,18
-double[] height1061 = new double[] { 1.2, 6.3 };         // 106 -  1,2,18
-double[] diametr10613 = new double[] { 0.164, 3, 3 }; // 107 -  13
-double[] height10613 = new double[] { 1.335, 7.31 };     // 107 -  13
+double[] diametr1063 = new double[] { 0.164, 3, 3 };                // 106 -  3,8,16,17,19,20,21
+double[] height1063 = new double[] { 1.335, 7.31 };                 // 106 -  3,8,16,17,19,20,21
+double[] diametr1064 = new double[] { 0.13, 3, 3 };                 // 106 -  4,5,6,7,9,10,11,12,14,15
+double[] height1064 = new double[] { 1.2, 7.3 };                    // 106 -  4,5,6,7,9,10,11,12,14,15
+double[] diametr1061 = new double[] { 0.164, 3, 3 };                // 106 -  1,2,18
+double[] height1061 = new double[] { 1.2, 6.3 };                    // 106 -  1,2,18
+double[] diametr10613 = new double[] { 0.164, 3, 3 };               // 107 -  13
+double[] height10613 = new double[] { 1.335, 7.31 };                // 107 -  13
 
 double[] diametr204 = new double[] { 0.6, 2, 2 };                   // 204 -  1,2,3; 205 - 1,2,3
 double[] height204 = new double[] { 0.75, 11.27 };                  // 204 -  1,2,3; 205 - 1,2,3
@@ -23,9 +22,17 @@ double[] height204 = new double[] { 0.75, 11.27 };                  // 204 -  1,
 double[] diametr206 = new double[] { 0.581, 0.581, 2, 2 };          // 206 -  1,2
 double[] height206 = new double[] { 0.341, 0.67, 14.23 };           // 206 -  1,2 0,5
 
+double[] diametr203l = new double[] { 1.5, 1.5, 0 };                                // 203 -  1,2,3,4,5,6 отгрузочный
+double[] height203l = new double[] { 11.33, 0.4 };                                  // 203 -  1,2,3,4,5,6 отгрузочный
+double[] diametr203p = new double[] { 1.5, 1.5, 2, 0, 0.315, 0.315, 0, 2, 2 };      // 203 -  1,2,3,4,5,6 загрузочный
+double[] height203p = new double[] { 10.4, 0.9, 0, 0, 1.4, 0, 0,  1.35 };           // 203 -  1,2,3,4,5,6 загрузочный
+double[] diametr203n = new double[] { 1.5, 2 };                                     // 203 -  1,2,3,4,5,6 тор
+double[] height203n = new double[] { 2 };                                           // 203 -  1,2,3,4,5,6 тор
+
 int kolvoPosCHK = 21;                                                 // поз. 107 21шт., поз. 106 21шт.
 int kolvoPosDHK = 3;                                                  // поз. 204 3шт., поз 205 3шт.
 int kolvoPos206 = 2;                                                  // поз. 206 отмывочные колоны 2шт.
+int kolvoPos203 = 6;
 
 void PrintArray(double[] numbers, string msg)
 {
