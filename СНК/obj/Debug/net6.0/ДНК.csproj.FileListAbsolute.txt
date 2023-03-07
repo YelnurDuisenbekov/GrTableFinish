@@ -1,0 +1,15 @@
+C:\Users\WW\Desktop\Градуировочная таблица\СНК\bin\Debug\net6.0\ДНК.exe
+C:\Users\WW\Desktop\Градуировочная таблица\СНК\bin\Debug\net6.0\ДНК.deps.json
+C:\Users\WW\Desktop\Градуировочная таблица\СНК\bin\Debug\net6.0\ДНК.runtimeconfig.json
+C:\Users\WW\Desktop\Градуировочная таблица\СНК\bin\Debug\net6.0\ДНК.dll
+C:\Users\WW\Desktop\Градуировочная таблица\СНК\bin\Debug\net6.0\ДНК.pdb
+C:\Users\WW\Desktop\Градуировочная таблица\СНК\obj\Debug\net6.0\ДНК.csproj.AssemblyReference.cache
+C:\Users\WW\Desktop\Градуировочная таблица\СНК\obj\Debug\net6.0\ДНК.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WW\Desktop\Градуировочная таблица\СНК\obj\Debug\net6.0\ДНК.AssemblyInfoInputs.cache
+C:\Users\WW\Desktop\Градуировочная таблица\СНК\obj\Debug\net6.0\ДНК.AssemblyInfo.cs
+C:\Users\WW\Desktop\Градуировочная таблица\СНК\obj\Debug\net6.0\ДНК.csproj.CoreCompileInputs.cache
+C:\Users\WW\Desktop\Градуировочная таблица\СНК\obj\Debug\net6.0\ДНК.dll
+C:\Users\WW\Desktop\Градуировочная таблица\СНК\obj\Debug\net6.0\refint\ДНК.dll
+C:\Users\WW\Desktop\Градуировочная таблица\СНК\obj\Debug\net6.0\ДНК.pdb
+C:\Users\WW\Desktop\Градуировочная таблица\СНК\obj\Debug\net6.0\ДНК.genruntimeconfig.cache
+C:\Users\WW\Desktop\Градуировочная таблица\СНК\obj\Debug\net6.0\ref\ДНК.dll

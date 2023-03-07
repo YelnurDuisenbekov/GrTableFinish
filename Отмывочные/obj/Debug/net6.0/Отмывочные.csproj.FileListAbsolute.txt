@@ -1,0 +1,15 @@
+C:\Users\WW\Desktop\Градуировочная таблица\Отмывочные\bin\Debug\net6.0\Отмывочные.exe
+C:\Users\WW\Desktop\Градуировочная таблица\Отмывочные\bin\Debug\net6.0\Отмывочные.deps.json
+C:\Users\WW\Desktop\Градуировочная таблица\Отмывочные\bin\Debug\net6.0\Отмывочные.runtimeconfig.json
+C:\Users\WW\Desktop\Градуировочная таблица\Отмывочные\bin\Debug\net6.0\Отмывочные.dll
+C:\Users\WW\Desktop\Градуировочная таблица\Отмывочные\bin\Debug\net6.0\Отмывочные.pdb
+C:\Users\WW\Desktop\Градуировочная таблица\Отмывочные\obj\Debug\net6.0\Отмывочные.csproj.AssemblyReference.cache
+C:\Users\WW\Desktop\Градуировочная таблица\Отмывочные\obj\Debug\net6.0\Отмывочные.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WW\Desktop\Градуировочная таблица\Отмывочные\obj\Debug\net6.0\Отмывочные.AssemblyInfoInputs.cache
+C:\Users\WW\Desktop\Градуировочная таблица\Отмывочные\obj\Debug\net6.0\Отмывочные.AssemblyInfo.cs
+C:\Users\WW\Desktop\Градуировочная таблица\Отмывочные\obj\Debug\net6.0\Отмывочные.csproj.CoreCompileInputs.cache
+C:\Users\WW\Desktop\Градуировочная таблица\Отмывочные\obj\Debug\net6.0\Отмывочные.dll
+C:\Users\WW\Desktop\Градуировочная таблица\Отмывочные\obj\Debug\net6.0\refint\Отмывочные.dll
+C:\Users\WW\Desktop\Градуировочная таблица\Отмывочные\obj\Debug\net6.0\Отмывочные.pdb
+C:\Users\WW\Desktop\Градуировочная таблица\Отмывочные\obj\Debug\net6.0\Отмывочные.genruntimeconfig.cache
+C:\Users\WW\Desktop\Градуировочная таблица\Отмывочные\obj\Debug\net6.0\ref\Отмывочные.dll
