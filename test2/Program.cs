@@ -8,14 +8,14 @@ double[] diametr10713 = new double[] { 0.315, 3, 3 };               // 107 -  13
 double[] height10713 = new double[] { 1.77, 1 };                    // 107 -  13
 
 
-double[] diametr1063 = new double[] { 0.164, 3, 3, 0.315, 0.315 };  // 106 -  3,8,16,17,19,20,21
-double[] height1063 = new double[] { 1.335, 7.31, 0.3, 1.7 };       // 106 -  3,8,16,17,19,20,21
-double[] diametr1064 = new double[] { 0.13, 3, 3, 2.73, 2.73 };     // 106 -  4,5,6,7,9,10,11,12,14,15
-double[] height1064 = new double[] { 1.2, 7.3, 0.3, 1.72 };         // 106 -  4,5,6,7,9,10,11,12,14,15
-double[] diametr1061 = new double[] { 0.164, 3, 3, 0.34, 0.34 };    // 106 -  1,2,18
-double[] height1061 = new double[] { 1.2, 6.3, 0.3, 1.75 };         // 106 -  1,2,18
-double[] diametr10613 = new double[] { 0.164, 3, 3, 0.315, 0.315 }; // 107 -  13
-double[] height10613 = new double[] { 1.335, 7.31, 0.3, 0.85 };     // 107 -  13
+double[] diametr1063 = new double[] { 0.164, 3, 3 };  // 106 -  3,8,16,17,19,20,21
+double[] height1063 = new double[] { 1.335, 7.31 };       // 106 -  3,8,16,17,19,20,21
+double[] diametr1064 = new double[] { 0.13, 3, 3 };     // 106 -  4,5,6,7,9,10,11,12,14,15
+double[] height1064 = new double[] { 1.2, 7.3 };         // 106 -  4,5,6,7,9,10,11,12,14,15
+double[] diametr1061 = new double[] { 0.164, 3, 3 };    // 106 -  1,2,18
+double[] height1061 = new double[] { 1.2, 6.3 };         // 106 -  1,2,18
+double[] diametr10613 = new double[] { 0.164, 3, 3 }; // 107 -  13
+double[] height10613 = new double[] { 1.335, 7.31 };     // 107 -  13
 
 double[] diametr204 = new double[] { 0.6, 2, 2 };                   // 204 -  1,2,3; 205 - 1,2,3
 double[] height204 = new double[] { 0.75, 11.27 };                  // 204 -  1,2,3; 205 - 1,2,3
