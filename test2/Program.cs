@@ -28,11 +28,12 @@ double[] diametr203p = new double[] { 1.5, 1.5, 2, 0, 0.315, 0.315, 0, 2, 2 };  
 double[] height203p = new double[] { 10.4, 0.9, 0, 0, 1.4, 0, 0,  1.35 };           // 203 -  1,2,3,4,5,6 загрузочный
 double[] diametr203n = new double[] { 1.5, 2 };                                     // 203 -  1,2,3,4,5,6 тор
 double[] height203n = new double[] { 2 };                                           // 203 -  1,2,3,4,5,6 тор
+double[] height203 = new double[] { 2, 10.4, 0.9, 1.4, 1.35 };                      // 203 обшие данные по высоте
 
 int kolvoPosCHK = 21;                                                 // поз. 107 21шт., поз. 106 21шт.
 int kolvoPosDHK = 3;                                                  // поз. 204 3шт., поз 205 3шт.
 int kolvoPos206 = 2;                                                  // поз. 206 отмывочные колоны 2шт.
-int kolvoPos203 = 6;
+int kolvoPosCDK = 6;
 
 void PrintArray(double[] numbers, string msg)
 {
@@ -113,6 +114,48 @@ double Vol(double input, double[] diametr, double[] height)
     }
     return vZapolneni;
 }
+double VolCDK (double input, double[]height203, double[]height203l, double[]height203p,double[]diametr203l, double[]diametr203p,double[]diametr203n)
+{
+double[] SumArray(double[] array)
+{
+    int size = array.Length;
+    double sum = 0;
+    double[] sumArray = new double[size];
+    for (int i = 0; i < size; i++)
+    {
+        sum = sum + array[i];
+        sumArray[i] = sum;
+    }
+    return sumArray;
+}
+double[] sumHTotal = SumArray(height203);
+double[] sumHl = SumArray(height203l);
+double[] sumHp = SumArray(height203p);
+double dH = sumHp[sumHp.Length - 1] - sumHl[sumHl.Length - 1];
+double inputt = input;
+// double VolTor(double d, double D)
+// {
+//     double pi = 3.14;
+//     double v = 2 * (Math.Pow(pi, 2)) * (Math.Pow(d, 2)) / 4 * D / 2;
+//     return v;
+// }
+double vzapolneni = 0;
+double vzapolnenil = 0;
+double vzapolnenip = 0;
+vzapolnenip = Vol(input, diametr203p, height203p);
+if (input - dH < 0)
+{
+    vzapolnenil = Vol(0, diametr203l, height203l);
+}
+else
+{
+    vzapolnenil = Vol((input - dH), diametr203l, height203l);
+}
+
+vzapolneni = vzapolnenil + vzapolnenip + 6.93;//VolTor(diametr203n[0], diametr203n[1]);
+
+return vzapolneni;
+}
 double[] FillArrayVolCHK(double[] array, double[] diametr1, double[] diametr2, double[] diametr3, double[] diametr4, double[] height1, double[] height2, double[] height3, double[] height4)
 {
     double size = array.Length;
@@ -136,6 +179,17 @@ double[] FillArrayVolCHK(double[] array, double[] diametr1, double[] diametr2, d
         {
             fillArrayVol[i] = Vol(array[i], diametr4, height4);
         }
+    }
+    return fillArrayVol;
+}
+double[] FillArrayVolCDK(double[] array,double[]height203, double[]height203l, double[]height203p,double[]diametr203l, double[]diametr203p,double[]diametr203n)
+{
+    double size = array.Length;
+    int sizeConvert = Convert.ToInt32(size);
+    double[] fillArrayVol = new double[sizeConvert];
+    for (int i = 0; i < size; i++)
+    {
+        fillArrayVol[i] = VolCDK (array[i], height203, height203l, height203p, diametr203l, diametr203p, diametr203n);
     }
     return fillArrayVol;
 }
@@ -185,33 +239,45 @@ double SumArray(double[] array, int kolvoPos)
     return sum;
 }
 
+Console.WriteLine("Если колона полная введите значение '0' ");
+Console.WriteLine("Если колона пустая введите значение '123' ");
+Console.WriteLine("");
 double[] zamerCHK106 = FillArrayZamer("Введите замер СНК 106/", kolvoPosCHK);
 double[] zamerCHK107 = FillArrayZamer("Введите замер СНК 107/", kolvoPosCHK);
+double[] zamerCDK203 = FillArrayZamer("Введите замер СДК 203/", kolvoPosCDK);
 double[] zamerDHK204 = FillArrayZamer("Введите замер ДНК 204/", kolvoPosDHK);
 double[] zamerDHK205 = FillArrayZamer("Введите замер ДНК 205/", kolvoPosDHK);
 double[] zamer206 = FillArrayZamer("Введите замер отмывочных колог 206/", kolvoPos206);
 
 double[] volCHK106 = FillArrayVolCHK(zamerCHK106, diametr1063, diametr1064, diametr1061, diametr10613, height1063, height1064, height1061, height10613);
 double[] volCHK107 = FillArrayVolCHK(zamerCHK107, diametr1073, diametr1074, diametr1071, diametr10713, height1073, height1074, height1071, height10713);
+double[] volCDK203 = FillArrayVolCDK(zamerCDK203, height203, height203l, height203p, diametr203l, diametr203p, diametr203n);
 double[] volDHK204 = FillArrayVol(zamerDHK204, diametr204, height204);
 double[] volDHK205 = FillArrayVol(zamerDHK205, diametr204, height204);
 double[] vol206 = FillArrayVol(zamer206, diametr206, height206);
 
 double sumCHK106 = SumArray(volCHK106, kolvoPosCHK);
 double sumCHK107 = SumArray(volCHK107, kolvoPosCHK);
+double sumCDK203 = SumArray(volCDK203, kolvoPosCDK);
 double sumDHK = Sum2Array(volDHK204, volDHK205, kolvoPosDHK);
 double sum206 = SumArray(vol206, kolvoPos206);
 
-double sum = sumCHK106 + sumCHK107 + sumDHK + sum206;
+double sum = sumCHK106 + sumCHK107 + sumCDK203 + sumDHK + sum206;
+double sumCHK = sumCHK106 + sumCHK107;
+
 PrintArray(volCHK106, "Обьем позиции 106/");
 PrintArray(volCHK107, "Обьем позиции 107/");
+PrintArray(volCDK203, "Обьем позиции 203/");
 PrintArray(volDHK204, "Обьем позиции 204/");
 PrintArray(volDHK205, "Обьем позиции 205/");
 PrintArray(vol206, "Обьем позиции 206/");
 
+
 Console.WriteLine("Общий обьем СНК 106 = " + sumCHK106);
 Console.WriteLine("Общий обьем СНК 107 = " + sumCHK107);
+Console.WriteLine("");
+Console.WriteLine("Общий обьем СНК = " + sumCHK);
+Console.WriteLine("Общий обьем СДК = " + sumCDK203);
 Console.WriteLine("Общий обьем ДНК = " + sumDHK);
-Console.WriteLine("Общий обьем отмывочных колон = " + sum206);
-Console.WriteLine("Общий обьем во всех колонах = " + sum);
-
+Console.WriteLine("Общий обьем ОТМ = " + sum206);
+Console.WriteLine("Общий обьем     = " + sum);
